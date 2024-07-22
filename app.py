@@ -24,7 +24,7 @@ def predict_image(img):
 # Streamlit app
 st.title("Cat or Dog Image Classifier")
 
-uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
+uploaded_file = st.file_uploader("Choose an image(Cat or Dog ONLY"), type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
     # Display image
